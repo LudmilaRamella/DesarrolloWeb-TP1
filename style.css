@@ -1,0 +1,258 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* NAVEGADOR */
+
+a{
+    color: black;
+text-decoration: none;
+padding-right: 40px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+height: 75px ;
+margin: 10px;
+padding: 10px;
+font-size: 17px;
+align-items: center;
+margin-right: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.logo{
+    display: flex;
+    height: 70px;
+
+}
+
+/* PRIMER SECCION*/
+h2{
+    margin: 15px;
+}
+
+.titulo{
+    font-size: 60px;
+    display: flex;
+    padding: 30px;
+    margin: 35px;
+    
+}
+
+.titulo2 h1{
+    border-right: 2px solid rgb(41, 35, 35) ; 
+    padding:35px;
+    padding-left: 100px 
+    
+}
+
+.parrafo1{
+    font-size: 28px;
+    padding: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+}
+
+.primerfoto img{
+    padding-left: 160px;
+    height: 690px;
+}
+
+/* SEGUNDA SECCION */
+.foto2 img{
+    margin-top: 150px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+
+.seccion2{
+    display: flex;
+}
+
+h3{
+    font-size: 25px;
+    margin: 15px;}
+
+
+ul{
+list-style-type: none;
+margin: 1px;
+}
+
+.titulo3{
+margin-top: 150px;
+padding: 35px;
+
+}
+
+.linea2{
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+
+/* TERCERA SECCION */
+h4{
+    font-size: 25px;
+    margin: 50px; 
+    color: black;
+    
+}
+
+.texto3{
+    font-size: 15px;
+    padding-left:  190px;
+    padding-right: 100px;
+    color: rgba(0, 0, 0, 0.411);
+    
+}
+.readmore{
+    color: black;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.terceraseccion{
+    display: flex;
+
+}
+
+.foto3 img{
+height: 600px;
+}
+
+/* CUARTA SECCION */
+
+.cuartaseccion{
+    display: flex;
+}
+
+.foto4 img{
+    padding-left: 180px;
+    padding-bottom: 100px;
+    height: 500px;
+    margin-top: -250px;
+}
+
+h5{
+    font-size: 19px;
+    padding-top:  10px; 
+    padding-bottom: 15px;
+    color: black; 
+
+}
+.texto4{
+    color: rgba(0, 0, 0, 0.411);
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+    
+}
+
+.seeall{
+color: black;
+padding-top: 35px;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* QUINTA SECCION */
+.box1{
+    background-color: rgba(95, 158, 160, 0.021);
+    font-size: 15px;
+    
+}
+
+.fotoperfil{
+    height: 120px;
+    width: 35px ;
+    display: flex;
+    padding-left: 600px;
+    padding-top: 100px;
+}
+
+.fotoperfil img{
+    box-shadow: -22px -20px 0 -5px rgba(0, 0, 0, 0.76) ;
+    
+}
+
+.textocentro{ 
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px ;
+    color: grey;
+    padding-left: 10px;
+    }
+
+    h6{
+    color: black; 
+    font-size: 20px;
+    padding-top: 25px;
+    white-space: nowrap;
+    }
+
+.textobox1{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+    padding-left: 300px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* SEXTA SECCION */
+
+.boxfinal{
+    display: flex;
+    margin: 40px;
+    
+}
+.textoizquierdo{
+    padding-top: 6px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 50px;
+    font-size: 15px;
+    color: grey;
+}
+.textofinal1 img{
+    display: flex;
+    float: left;
+    font-size: 15px;
+    margin: 30px;
+    height: 100px;
+}
+
+.textofinal2 img{
+    display: flex;
+    float:left;
+    font-size: 15px;
+    margin: 30px;
+    height: 80px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+/* footer */
+.contenedordelbox{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(65, 58, 58);
+}
+
+.footerlogo img{
+    height: 100px;
+}
